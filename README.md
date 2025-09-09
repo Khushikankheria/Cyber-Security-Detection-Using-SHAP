@@ -2,7 +2,8 @@
 
 This project demonstrates how Explainable Artificial Intelligence (XAI) can be applied to cybersecurity threat detection. Traditional ML models can identify threats but often work like a black box. By integrating XAI methods such as SHAP, LIME, and feature importance, this project provides both high accuracy in detecting threats and interpretability, helping security analysts understand why a model flagged a threat.
 
-#Features
+## **FEATURES**
+
 
 📊 Threat Detection using ML classifiers.
 
@@ -16,27 +17,26 @@ This project demonstrates how Explainable Artificial Intelligence (XAI) can be a
 
 🔒 Cybersecurity-focused – phishing and network threat datasets.
 
-#Tech Stack
 
-Language: Python 🐍
-Libraries:
-pandas, numpy → data preprocessing
-scikit-learn → ML models & metrics
-xgboost → gradient boosting classifier
-matplotlib, seaborn → visualizations
-shap → explainability
-Environment: Jupyter Notebook
 
-#Results
+## **TECH STACK USED**
 
-Achieved high classification accuracy across datasets using ensemble models.
+- **Language:** Python 🐍  
+- **Libraries:**  
+  - pandas, numpy → data preprocessing  
+  - scikit-learn → ML models & evaluation  
+  - xgboost → boosting classifier  
+  - matplotlib, seaborn → visualizations  
+  - shap, lime → explainability  
+- **Environment:** Jupyter Notebook  
 
-Random Forest / XGBoost performed best in detection.
 
-XAI visualizations showed that:
 
-For phishing, URL-based features (e.g., length, presence of @, redirects) were most important.
+## **RESULTS**
 
-For network threats, protocol type and connection duration were key indicators.
-
-Final output included interpretable dashboards of feature contributions.
+- Achieved high classification accuracy across datasets using ensemble models.  
+- **Random Forest / XGBoost** performed best in detection.  
+- XAI visualizations showed that:  
+  - For phishing, URL-based features (e.g., length, presence of `@`, redirects) were most important.  
+  - For network threats, protocol type and connection duration were key indicators.  
+- Final output included interpretable dashboards of feature contributions. 
